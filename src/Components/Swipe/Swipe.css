@@ -15,6 +15,12 @@
   /* .slack{
     width:100px;
   } */
+
+  .mySwiper{
+    mix-blend-mode:multiply;
+    width:10px;
+
+  }
   
   .swiper {
     width: 100%;
