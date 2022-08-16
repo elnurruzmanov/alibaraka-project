@@ -1,0 +1,124 @@
+.Swipe{
+    margin-top: 20rem;
+    width: 100%;
+    height: 10.5rem;
+    background-image: url('../../Images/image40.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Swipe {
+    position: relative;
+  }
+
+  /* .slack{
+    width:100px;
+  } */
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .mySwiper {
+    padding: 60px 30px;
+    position: absolute;
+  }
+
+.mySwiper{
+width: 90%;
+
+}
+
+.SwiperSlide{
+margin-left: 14rem;
+}
+
+.hhh{
+margin: auto;
+}
+
+.lll{
+    margin-left: 1rem;
+}
+
+.sss{
+    margin-left: 0rem;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+@media (max-width: 1088px){
+    .lll{
+        margin-left: 0;
+    }
+
+    .sss{
+        margin-left: 0;
+    }
+    .SwiperSlide{
+margin-left: 4rem;
+}
+
+.hamkorlar img{
+    width: 90%;
+}
+}
+

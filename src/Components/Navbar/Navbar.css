@@ -1,0 +1,108 @@
+.nav {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Poppins";
+  padding: 2rem;
+  color: white;
+  font-size: 19px;
+  position: relative;
+}
+.ham {
+  display: none;
+}
+
+#checkbox {
+  display: none;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.nav-list li {
+  margin-right: 50px;
+  cursor: pointer;
+  background-color: inherit;
+}
+.nav-list li a {
+  background-color: inherit;
+  color: #3b881a;
+}
+
+.nav-list li a:hover {
+  opacity: 0.5;
+}
+
+.menu {
+  border: 2px solid gray;
+  transition: 0.4s;
+  list-style-type: none;
+  height: 12rem;
+  position: absolute;
+  left: 50px;
+  top: 0px;
+  right: -3%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  display: none;
+  background-color: #51f60b;
+  font-family: cursive;
+}
+
+.menu li {
+  padding: 10px;
+}
+
+.phone-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+.phone-number {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.5px;
+  line-height: 15px;
+  color: #037b35;
+  text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+  .nav {
+    width: 95%;
+  }
+}
+
+@media (max-width: 758px) {
+  .nav-list,
+  .info {
+    display: none;
+  }
+  .logo {
+    margin: 1rem;
+  }
+
+  input[type="checkbox"]:checked ~ .menu {
+    display: block;
+  }
+
+  .nav {
+    padding: 0rem;
+  }
+
+  .ham {
+    display: flex;
+    width: 80px;
+    font-size: 40px;
+    color: white;
+  }
+}

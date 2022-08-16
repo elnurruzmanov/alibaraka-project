@@ -1,0 +1,101 @@
+.stories {
+  display: flex;
+  margin-top: 22rem;
+  font-family:"Poppins"
+}
+
+.person {
+  filter: drop-shadow(21px 21px 70px rgba(0, 0, 0, 0.2));
+}
+
+.s-left {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-info {
+  background: #ffffff;
+  box-shadow: 14px 14px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+  width: 280px;
+  padding: 15px 20px;
+  position: absolute;
+  bottom: 6%;
+  left:8%
+}
+
+.more-infos {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 25px;
+  color: #037b35;
+  margin-bottom: 15px;
+}
+
+.more-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  color: #050505;
+  margin-top: 10px;
+}
+
+.more-infos1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 23px;
+  color: #037b35;
+  margin-top: 20px;
+}
+
+.s-right{
+   
+    padding: 3rem 23rem 0 3rem;
+}
+
+h1 {
+  ont-style: normal;
+  font-weight: 800;
+  font-size: 42.5382px;
+  line-height: 40px;
+  /* or 94% */
+
+  color: #444444;
+  margin-bottom: 3rem;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height, or 125% */
+
+  color: #037b35;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+  /* or 153% */
+
+  color: #363636;
+  margin-bottom: 2rem;
+}
+
+.feedback {
+  position: absolute;
+  left: 0;
+  top: 45%;
+}
